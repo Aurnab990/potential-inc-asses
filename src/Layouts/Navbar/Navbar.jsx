@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 
 const Navbar = () => {
-    // State to handle mobile menu toggle
     const [isOpen, setIsOpen] = useState(false);
 
     return (
         <nav className="bg-white font-poppins">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16 items-center">
-                    {/* Logo */}
+                    
                     <div className="flex-shrink-0 ml-4 lg:ml-16">
                         <h1 className="text-2xl">
                             <span className="font-bold text-black">M</span>
@@ -16,14 +15,13 @@ const Navbar = () => {
                         </h1>
                     </div>
 
-                    {/* Mobile Menu Button */}
                     <div className="flex md:hidden mr-4">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             type="button"
                             className="text-gray-500 hover:text-gray-900 focus:outline-none"
                         >
-                            {/* Hamburger Icon */}
+                            
                             <svg
                                 className="h-6 w-6"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +39,6 @@ const Navbar = () => {
                         </button>
                     </div>
 
-                    {/* Navbar Links - hidden on mobile, visible on desktop */}
                     <div className="hidden md:flex space-x-8 items-center">
                         <a href="#home" className="text-black-600 hover:text-gray-900">Home</a>
                         <a href="#about" className="text-black-600 hover:text-gray-900">About</a>
@@ -61,7 +58,6 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* Mobile Menu - shown when toggled */}
             {isOpen && (
                 <div className="md:hidden bg-white px-2 pb-4 space-y-2">
                     <a href="#home" className="block text-black-600 hover:text-gray-900">Home</a>

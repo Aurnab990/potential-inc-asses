@@ -4,7 +4,6 @@ const Aboutme = () => {
     return (
         <section className="bg-white py-12 -lg:ml-44">
             <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 flex flex-col md:flex-row items-center justify-between">
-                {/* Image Section */}
                 <div className="md:w-1/2 flex justify-center">
                     <img
                         src="https://static.vecteezy.com/system/resources/thumbnails/043/474/812/small_2x/happy-young-man-smiling-in-a-casual-red-t-shirt-png.png"
@@ -13,16 +12,13 @@ const Aboutme = () => {
                     />
                 </div>
 
-                {/* Text Section */}
                 <div className="md:w-1/2 mb-8 md:mb-0">
                     <h2 className="text-4xl font-bold text-black mb-4">About Me</h2>
                     <p className="text-lg text-black mb-6">
                         I’m Muhammad Umair, a UI/UX designer with a strong passion for creating beautiful and functional user experiences.
                     </p>
 
-                    {/* Skills Section */}
                     <div>
-                        {/* Skill: UX Design */}
                         <div className="mb-4">
                             <div className="flex justify-between mb-1">
                                 <span className="text-black font-bold">UX Design</span>
@@ -30,7 +26,7 @@ const Aboutme = () => {
                             </div>
                             <div className="w-full bg-gray-300 h-2 rounded-full relative">
                                 <div className="bg-orange-500 h-2 rounded-full" style={{ width: '90%' }}></div>
-                                {/* Dot at 90% */}
+                                
                                 <div
                                     className="absolute top-0 transform mt-1 -translate-y-1/2 bg-white border-2 border-orange-500 w-4 h-4 rounded-full shadow-lg"
                                     style={{ left: '88%' }}  
@@ -38,7 +34,6 @@ const Aboutme = () => {
                             </div>
                         </div>
 
-                        {/* Skill: Web Design */}
                         <div className="mb-4">
                             <div className="flex justify-between mb-1">
                                 <span className="text-black font-bold">Web Design</span>
@@ -46,7 +41,7 @@ const Aboutme = () => {
                             </div>
                             <div className="w-full bg-gray-300 h-2 rounded-full relative">
                                 <div className="bg-orange-500 h-2 rounded-full" style={{ width: '85%' }}></div>
-                                {/* Dot at 85% */}
+                                
                                 <div
                                     className="absolute top-0 transform mt-1 -translate-y-1/2 bg-white border-2 border-orange-500 w-4 h-4 rounded-full shadow-lg"
                                     style={{ left: '83%' }}  
@@ -54,7 +49,6 @@ const Aboutme = () => {
                             </div>
                         </div>
 
-                        {/* Skill: App Design */}
                         <div className="mb-4">
                             <div className="flex justify-between mb-1">
                                 <span className="text-black font-bold">App Design</span>
@@ -62,7 +56,7 @@ const Aboutme = () => {
                             </div>
                             <div className="w-full bg-gray-300 h-2 rounded-full relative">
                                 <div className="bg-orange-500 h-2 rounded-full" style={{ width: '80%' }}></div>
-                                {/* Dot at 80% */}
+                                
                                 <div
                                     className="absolute top-0 transform mt-1 -translate-y-1/2 bg-white border-2 border-orange-500 w-4 h-4 rounded-full shadow-lg"
                                     style={{ left: '78%' }}  
@@ -70,7 +64,6 @@ const Aboutme = () => {
                             </div>
                         </div>
 
-                        {/* Skill: Graphic Design */}
                         <div className="mb-4">
                             <div className="flex justify-between mb-1">
                                 <span className="text-black font-bold">Graphic Design</span>
@@ -78,7 +71,6 @@ const Aboutme = () => {
                             </div>
                             <div className="w-full bg-gray-300 h-2 rounded-full relative">
                                 <div className="bg-orange-500 h-2 rounded-full" style={{ width: '75%' }}></div>
-                                {/* Dot at 75% */}
                                 <div
                                     className="absolute top-0 transform mt-1 -translate-y-1/2 bg-white border-2 border-orange-500 w-4 h-4 rounded-full shadow-lg"
                                     style={{ left: '73%' }}  

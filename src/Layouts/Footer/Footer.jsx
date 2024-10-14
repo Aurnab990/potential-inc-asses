@@ -5,14 +5,13 @@ const Footer = () => {
     return (
         <footer className="bg-gray-100 pt-12">
             <div className="text-center mb-8">
-                {/* Footer Name */}
+               
                 <h1 className="text-2xl">
                     <span className="font-bold text-black">M</span>
                     <span className="text-gray-500">umair</span>
                 </h1>
             </div>
 
-            {/* Footer Menu */}
             <div className="flex flex-col space-y-4 lg:flex-row lg:justify-center lg:space-y-0 lg:space-x-6 text-center mb-8">
                 <a href="#home" className="text-black text-lg hover:text-orange-500 transition">Home</a>
                 <a href="#about" className="text-black text-lg hover:text-orange-500 transition">About</a>
@@ -22,7 +21,6 @@ const Footer = () => {
                 <a href="#contact" className="text-black text-lg hover:text-orange-500 transition">Contact</a>
             </div>
 
-            {/* Social Media Icons */}
             <div className="flex justify-center space-x-6 mb-12">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                     <FaFacebook className="text-2xl text-black hover:text-orange-500 transition" />
@@ -38,7 +36,6 @@ const Footer = () => {
                 </a>
             </div>
 
-            {/* Footer Bottom */}
             <div className="bg-gray-900 py-4">
                 <p className="text-center text-white text-sm">
                     &copy; 2024 <span className="text-orange-500 font-semibold">Mumair</span>. All rights reserved.

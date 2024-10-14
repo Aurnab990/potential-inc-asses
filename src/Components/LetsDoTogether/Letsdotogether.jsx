@@ -4,13 +4,12 @@ const Letsdotogether = () => {
     return (
         <section className="bg-white py-12">
             <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 text-center">
-                {/* Title and Description */}
+                
                 <h2 className="text-4xl font-bold text-black mb-4">Let's Design Together</h2>
                 <p className="text-lg text-black mb-8">
                     Ready to start your next project? Contact me today, and let's <br></br> create something amazing together!
                 </p>
 
-                {/* Input Field and Button */}
                 <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
                     <input
                         type="email"

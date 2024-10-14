@@ -1,18 +1,17 @@
 import React from 'react';
 
-// Sample testimonial data
 const testimonial = {
     name: "John Doe",
     role: "Web Developer",
     review: "Working with Aurnab was a great experience! Their attention to detail and design skills are top-notch.Working with Aurnab was a great experience! Their attention to detail and design skills are top-notch.Working with Aurnab was a great experience! Their attention to detail and design skills.",
-    image: "https://via.placeholder.com/100" // Placeholder image URL
+    image: "https://via.placeholder.com/100" 
 };
 
 const Testimonials = () => {
     return (
         <section className="bg-white py-12">
             <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
-                {/* Title and Description */}
+                
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold text-black mb-4">Testimonials</h2>
                     <p className="text-lg text-black">
@@ -20,7 +19,6 @@ const Testimonials = () => {
                     </p>
                 </div>
 
-                {/* Single Testimonial Display */}
                 <div className="bg-gray-100 rounded-lg p-6 flex flex-col lg:flex-row items-center text-center">
                     <img
                         src={testimonial.image}
