@@ -12,6 +12,14 @@ Check out the live version of the portfolio: [Mumair Portfolio](https://aurnab-d
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **React Icons**: Icon library for social media and action icons.
 
+🧑‍🎨 Features
+-**Responsive Design**: Fully responsive across all screen sizes (desktop, tablet, and mobile).
+-**Project Filtering**: Filter projects by categories such as "Web Design", "App Design", and more.
+-**Testimonials**: Section with user testimonials, flexibly aligned with pagination dots.
+-**Contact Section**: Simple and clean contact form to reach out.
+-**Footer**: Includes a logo, navigation links, and social media icons.
+-**Smooth Navigation**: The website provides a seamless user experience with smooth scrolling and transitions.
+
 ## 📂 Project Structure
 
 ```bash
@@ -31,3 +39,5 @@ src/
 ├── index.js                # Entry point for React
 ├── styles.css              # Additional custom styles
 ├── ...
+
+
